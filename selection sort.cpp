@@ -4,7 +4,7 @@ void swap(int *x, int *y){
     temp = *x;
     *x = *y;
     *y = temp;
-} //function to swap the elements of the array for sorting
+}
 //moving boundary of unsorted subarray one by one
 void ss(int A[], int n){
     int Min_index, i, j;
